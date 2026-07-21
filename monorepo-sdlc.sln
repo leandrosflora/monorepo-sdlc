@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37411.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "monorepo-sdlc", "monorepo-sdlc.csproj", "{D64EC6DE-2FFA-43A1-B2C8-70DC237F11C7}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "sdlc-product-agent", "..\sdlc-product-agent\sdlc-product-agent.pyproj", "{E3685EAE-E3E8-4909-A7DC-080BB464E619}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "sdlc-architecture-agent", "..\sdlc-architecture-agent\sdlc-architecture-agent.pyproj", "{2317B5C4-2D03-4245-87F6-90230D42DB11}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "sdlc-developer-agent", "..\sdlc-developer-agent\sdlc-developer-agent.pyproj", "{8CE1555B-F3E8-4442-93E8-D0644D3169E7}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "sdlc-test-agent", "..\sdlc-test-agent\sdlc-test-agent.pyproj", "{D609C234-CDCF-4E38-876F-B8614E3AD4BE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "sdlc-security-agent", "..\sdlc-security-agent\sdlc-security-agent.pyproj", "{48EDD625-41C9-4BAC-9A0F-E62855AA57BB}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "sdlc-reviewer-agent", "..\sdlc-reviewer-agent\sdlc-reviewer-agent.pyproj", "{C03D5F02-68BA-44B7-A956-3B11D1EFFE88}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "sdlc-release-agent", "..\sdlc-release-agent\sdlc-release-agent.pyproj", "{640A0CDD-6434-4C5D-87C5-318B4A00A29B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "sdlc-incident-agent", "..\sdlc-incident-agent\sdlc-incident-agent.pyproj", "{CA66602D-4180-467F-9545-597162FDA066}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D64EC6DE-2FFA-43A1-B2C8-70DC237F11C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64EC6DE-2FFA-43A1-B2C8-70DC237F11C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64EC6DE-2FFA-43A1-B2C8-70DC237F11C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64EC6DE-2FFA-43A1-B2C8-70DC237F11C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3685EAE-E3E8-4909-A7DC-080BB464E619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3685EAE-E3E8-4909-A7DC-080BB464E619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2317B5C4-2D03-4245-87F6-90230D42DB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2317B5C4-2D03-4245-87F6-90230D42DB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE1555B-F3E8-4442-93E8-D0644D3169E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE1555B-F3E8-4442-93E8-D0644D3169E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D609C234-CDCF-4E38-876F-B8614E3AD4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D609C234-CDCF-4E38-876F-B8614E3AD4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48EDD625-41C9-4BAC-9A0F-E62855AA57BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48EDD625-41C9-4BAC-9A0F-E62855AA57BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03D5F02-68BA-44B7-A956-3B11D1EFFE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03D5F02-68BA-44B7-A956-3B11D1EFFE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{640A0CDD-6434-4C5D-87C5-318B4A00A29B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640A0CDD-6434-4C5D-87C5-318B4A00A29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA66602D-4180-467F-9545-597162FDA066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA66602D-4180-467F-9545-597162FDA066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {139EB799-A94F-4A82-9D36-38F66DF6B817}
+	EndGlobalSection
+EndGlobal

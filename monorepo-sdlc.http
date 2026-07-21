@@ -1,0 +1,6 @@
+@monorepo_sdlc_HostAddress = http://localhost:5052
+
+GET {{monorepo_sdlc_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
